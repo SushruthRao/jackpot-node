@@ -1,0 +1,20 @@
+{
+  "name": "gamble-nodejs",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start" :  "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5"
+  }
+}
