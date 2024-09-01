@@ -17,6 +17,7 @@ const supabase = createClient(supabaseUrl, supabaseKey);
 
 
 const allowedOrigins = [
+    'https://jackpot-frontend-tan.vercel.app',
     'http://localhost:3000',  // Example port 1
     'http://localhost:3001'   // Example port 2
   ];
